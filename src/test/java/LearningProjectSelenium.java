@@ -20,6 +20,7 @@ public class LearningProjectSelenium {
     @Test
     public void executionPart(){
 
+        //This is comment for latest change
         driver.get("https://accounts.google.com/");
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("Test.test@gmail.com");
 
