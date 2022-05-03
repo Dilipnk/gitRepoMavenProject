@@ -24,6 +24,7 @@ public class LearningProjectSelenium {
         driver.get("https://accounts.google.com/");
         driver.findElement(By.xpath("//input[@type='email']")).sendKeys("Test.test@gmail.com");
 
+        //This is the command added for the Jenkins Trigger test
     }
 
     @AfterSuite
